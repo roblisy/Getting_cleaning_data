@@ -63,7 +63,7 @@ complete_tidy_mean <- dcast(data = complete_tidy,
                             formula = activity_description + subject_ID ~ variable, mean)
                               
 write.table(x = complete_tidy_mean, 
-            file = "tidy_data_means_output.psv", 
+            file = "tidy_data_means_output.txt", 
             row.names = FALSE,
             sep = '|')
 

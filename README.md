@@ -1,4 +1,4 @@
-# Getting_cleaning_data
+# Getting and Cleaning Data - Final Project
 
 ## This script:
 * Downloads the ZIP file
